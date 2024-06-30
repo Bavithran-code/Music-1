@@ -1,0 +1,64 @@
+*{
+    margin: 0;padding: 0;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    cursor: pointer;
+}
+nav ul li:hover{
+    color: blueviolet;
+}
+li button{
+    background-color: rgb(99, 245, 70);
+    color: black;
+    padding: 5px;
+    border-radius: 14px;
+}
+.Mid-Section{
+    background-color: rgb(245, 242, 242);
+    margin-left: 50px;
+    margin-top: 50px;
+}
+.Mid-Section h1{
+    font-size: 80px;
+}
+.subdiv-1,.subdiv-2,.subdiv-3,.subdiv-4{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+
+.subdiv-1 ul li,.subdiv-2 ul li,.subdiv-3 ul li,.subdiv-4 ul li{
+     
+    list-style: none;
+
+}
+.main-div{
+    display: flex;
+    padding: 8%;
+    justify-content: space-between;
+}
+.Centre{
+    margin-left: 8%;
+    list-style: none;
+}
+.Logo-1 ul li{
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    padding: 2%;
+}
+
+
